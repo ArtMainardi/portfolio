@@ -1,0 +1,21 @@
+.secao-principal {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 8%;
+    gap: 50px;
+}
+
+.biography-container {
+    display: flex;
+    width: 50%;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/* == TEXTOS == */
+.big-text {
+    font-size: 40px;
+    font-weight: 100px;
+}
