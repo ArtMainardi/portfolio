@@ -66,10 +66,10 @@
 }
 
 .area-imagem img {
-    width: 320px;
-    height: 320px;
+    width: 420px;
+    height: 420px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #38bdf8;
+    border: 7px solid #38bdf8;
     box-shadow: 0 0 30px rgba(56, 189, 248, 0.5);
 }
