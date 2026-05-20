@@ -27,19 +27,32 @@
     background-color: #0c2b5e;
     padding: 4%;
     border-radius: 2vw;
-    transition: all 1s;
+    transition: all 1.2s ease-in-out;
 }
 .skils-topic-container:hover{
+    transition: all 0.3s ease-in-out;
     transform: scale(1.05);
+    background-color: #0c2b5e0e;
+    border: 3px solid #38bdf8;
+    box-shadow: 0 0 20px #38bdf8;
 }
 
 
 /* == TEXTO ==*/
+.h1-container{
+    display: flex;
+    justify-content: center;
+}
 h1{
     font-size: 4vw;
     margin: 0;
     margin-bottom: 5vw;
-    text-align: center;
+    transition: all 1.5s ease-in-out;
+}
+h1:hover{
+    transition: all 0.55s ease-in-out;
+    transform: scale(1.05);
+    color: #38bdf8;
 }
 h2{
     text-align: center;
@@ -51,7 +64,7 @@ h2{
     margin-bottom: 2vw;
     line-height: 1.5vw;
 }
-.topics-skils{
-    font-size: 0.8vw;
-    line-height: 2vw;
+.skill{
+    font-size: 0.9vw;
+    font-weight: 600;
 }
