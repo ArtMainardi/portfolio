@@ -1,0 +1,57 @@
+.secao-principal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 65vh;
+    justify-content: space-between;
+}
+
+
+/* == SEÇÃO DAS HABILIDADES ==*/
+.skils-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-bottom: 15%;
+}
+.one-line-topics-container{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    margin-bottom: 10vw;
+}
+.skils-topic-container{
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+    background-color: #0c2b5e;
+    padding: 4%;
+    border-radius: 2vw;
+    transition: all 1s;
+}
+.skils-topic-container:hover{
+    transform: scale(1.05);
+}
+
+
+/* == TEXTO ==*/
+h1{
+    font-size: 4vw;
+    margin: 0;
+    margin-bottom: 5vw;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 1.8vw;
+    margin-bottom: 1vw;
+}
+.text-skill{
+    font-size: 1vw;
+    margin-bottom: 2vw;
+    line-height: 1.5vw;
+}
+.topics-skils{
+    font-size: 0.8vw;
+    line-height: 2vw;
+}
