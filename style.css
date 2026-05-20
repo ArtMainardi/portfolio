@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial;
     background: linear-gradient(to right, #0f1b38, #283549);
@@ -14,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 
 /* HEADER */
 header {
@@ -29,29 +29,26 @@ header {
     position: sticky;
     top: 0;
 }
-
 .logotipo {
     font-size: clamp(20px, 2.5vw, 100px);
     font-weight: bold;
     color: #38bdf8;
 }
-
 nav ul {
     list-style: none;
     display: flex;
     gap: 3vw;
 }
-
 nav a {
     text-decoration: none;
     color: white;
     font-size: clamp(10px, 1vw, 100px);
     transition: 0.3s;
 }
-
 nav a:hover {
     color: #38bdf8;
 }
+
 
 /* FOOTER */
 footer {
@@ -60,25 +57,21 @@ footer {
     padding: 25px 8%;
     text-align: center;
 }
-
 .conteudo-rodape {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-
 .navegacao {
     display: flex;
     justify-content: center;
     gap: 25px;
 }
-
 .navegacao a {
     color: white;
     text-decoration: none;
     transition: 0.3s;
 }
-
 .navegacao a:hover {
     color: #38bdf8;
 }
