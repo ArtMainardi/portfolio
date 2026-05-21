@@ -64,13 +64,23 @@ h2{
     margin-bottom: 2vw;
     line-height: 1.5vw;
 }
+.skill-box{
+    display: inline-block;
+}
 .skill{
+    display: inline-block;
+    transform-origin: center;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
     font-size: 0.9vw;
     font-weight: 600;
+    color: #fff;
     transition: all 1s ease-in-out;
 }
 .skill:hover{
-    transition: all 0.4s ease-in-out;
-    font-size: 1.1vw;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.5);
     color: #38bdf8;
 }
