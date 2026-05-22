@@ -26,6 +26,8 @@
     width: 29vw;
     background-color: #0c2b5e;
     padding: 4%;
+    padding-top: 3vw;
+    padding-bottom: 1.5vw;
     border-radius: 2vw;
     transition: all 1.2s ease-in-out;
 }
@@ -44,7 +46,7 @@
     justify-content: center;
 }
 h1{
-    font-size: 4vw;
+    font-size: clamp(30px, 4vw, 100px);
     margin: 0;
     margin-bottom: 5vw;
     transition: all 1.5s ease-in-out;
@@ -56,16 +58,18 @@ h1:hover{
 }
 h2{
     text-align: center;
-    font-size: 1.8vw;
-    margin-bottom: 1vw;
+    font-size: clamp(12px, 1.8vw, 100px);
+    margin-bottom: 2vw;
 }
 .text-skill{
-    font-size: 1vw;
+    font-size: clamp(15px, 1vw, 100px);
     margin-bottom: 2vw;
-    line-height: 1.5vw;
+    line-height: clamp(15px, 1.5vw, 100px);
+    text-align: center;
 }
 .skill-box{
     display: inline-block;
+    transition: all 1.5s ease-in-out;
 }
 .skill{
     display: inline-block;
@@ -74,13 +78,44 @@ h2{
     top: 0;
     left: 0;
     width: 100%;
-    font-size: 0.9vw;
+    font-size: clamp(11px, 0.9vw, 100px);
     font-weight: 600;
-    color: #fff;
-    transition: all 1s ease-in-out;
+    color: #ffdc6a;
+    transition: all 1.8s ease-in-out;
+}
+.skill-box:hover{
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.45);
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #38bff8d0;
+    border-radius: 10vw;
 }
 .skill:hover{
     transition: all 0.2s ease-in-out;
-    transform: scale(1.5);
-    color: #38bdf8;
+    color: #ffffff;
+}
+
+
+/* == RESPONSIVIDADE == */
+@media (max-width: 768px){
+    .one-line-topics-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skils-topic-container{
+        width: 80vw;
+    }
+    .text-skill{
+        margin-bottom: 4vw;
+    }
+    h2{
+        font-size: clamp(20px, 1.8vw, 100px);
+        margin-bottom: 3vw;
+    }
+    .skils-topic-container{
+        padding-top: 4.5vw;
+    }
 }
