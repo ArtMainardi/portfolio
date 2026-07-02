@@ -1,7 +1,5 @@
-let html = "";
 if (window.location.hostname.includes('github.io')) {
-    html = `<base id="base-url" href="/portfolio/">`
+    const base = document.createElement("base");
+    base.href = "/portfolio/";
+    document.head.insertBefore(base, document.head.firstChild)
 }
-
-html += document.querySelector("head").innerHTML;
-document.querySelector("head").innerHTML = html;
