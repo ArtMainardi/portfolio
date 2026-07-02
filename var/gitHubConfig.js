@@ -1,6 +1,6 @@
 let html = "";
 if (window.location.hostname.includes('github.io')) {
-    html = `<base id="base-url" href="/">`
+    html = `<base id="base-url" href="/porfolio/">`
 }
 
 html += document.querySelector("head").innerHTML;
